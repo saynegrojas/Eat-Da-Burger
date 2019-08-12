@@ -8,7 +8,7 @@ require('dotenv').config();
 const app = express();
 
 //port
-const PORT = process.env.PORT || 32469;
+const PORT = process.env.PORT || 3003;
 
 //serve content for app from public
 app.use(express.static('public'));
