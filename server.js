@@ -2,6 +2,7 @@
 
 const express = require('express');
 const exphbs = require('express-handlebars');
+require('dotenv').config();
 
 //instance of app
 const app = express();
