@@ -9,11 +9,11 @@ const connection = mysql.createConnection({
     database: "burger_db"
 });
 
-// //connect
-// connection.connect( (err) => {
-//     if(err) throw err;
-//     console.log(`connected as id: ${connection.threadId}`);
-// });
+//connect
+connection.connect( (err) => {
+    if(err) throw err;
+    console.log(`connected as id: ${connection.threadId}`);
+});
 
 //export connection
 module.exports = connection;
